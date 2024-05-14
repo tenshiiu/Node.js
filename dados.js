@@ -22,3 +22,13 @@ class pais {
     return "Eu moro " + this.pais;
   }
 }
+
+class Idade {
+  constructor(name) {
+    this.idade = name;
+  }
+
+  DigaMinhaIdade() {
+    return "Tenho " + this.idade;
+  }
+}
